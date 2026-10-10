@@ -1,6 +1,6 @@
 \documentclass[12pt]{article}
 
-\usepackage[a4paper, margin=1in]{geometry}
+\usepackage[a4paper, margin=0.75in]{geometry}
 \usepackage{graphicx}
 \usepackage{amsmath,amssymb}
 \usepackage[hidelinks]{hyperref}
@@ -8,8 +8,35 @@
 \usepackage{xcolor}
 \usepackage{listings}
 \usepackage{pgfplots}
+\usepackage[cache=false]{minted}
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0.7em}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\ttfamily\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=4
+}
+
+\lstset{style=mystyle}
 
 \begin{document}
 	
@@ -23,4 +50,62 @@
 		\vspace{0.2cm}
 		\rule{\textwidth}{0.4pt}
 	\end{center}
+	
+	\section*{1. Blob Detection: Sunflower Field}
+	Blob detection was implemented using a scale-normalized Laplacian of Gaussian (LoG) filter and scale-space extrema detection. A 3D scale-space volume was generated across multiple $\sigma$ values, and local maxima were extracted using a 3D maximum filter. 
+	
+	\begin{lstlisting}[language=Python, basicstyle=\ttfamily\scriptsize]
+		# Core LoG and Extrema Logic
+		for sigma in sigmas:
+		blurred = cv.GaussianBlur(gray, (ksize, ksize), sigma)
+		normalized_log = cv.Laplacian(blurred, cv.CV_64F, ksize=3) * (sigma ** 2)
+		log_responses.append(normalized_log)
+		
+		log_volume = np.abs(np.stack(log_responses, axis=-1))
+		blob_mask = (log_volume == maximum_filter(log_volume, size=7)) & (log_volume > 0.4 * np.max(log_volume))
+	\end{lstlisting}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.4\textwidth]{D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png}
+		\caption{Detected sunflowers}
+	\end{figure}
+
+	
+	The threshold multiplier (0.4) and 3D neighborhood size (7) were tuned to filter out background noise like clouds and trees. The algorithm successfully locked onto the high-contrast central seed disks of the sunflowers rather than the outer petals. 
+	
+	\textbf{Scale range:} 6.10 to 7.63. 
+	
+	\textbf{Largest circles parameters:} 
+	Rank 1: Center = (0, 275), Radius = 10, $\sigma = 7.63$ \;|\; 
+	Rank 2: Center = (282, 338), Radius = 10, $\sigma = 7.63$ \;|\; 
+	Rank 3: Center = (106, 255), Radius = 8, $\sigma = 6.10$.
+	
+	\section*{2. Robust Model Fitting (RANSAC)}
+	
+	\textbf{Methodology and Code} \\
+	RANSAC was implemented to sequentially extract models from noisy data. For line estimation, two points were iteratively sampled to compute the normal $[a, b]^T$, enforcing $||[a,b]^T||=1$. The normal distance error threshold was carefully selected as $1.5$, and a model was only accepted if it met a minimum consensus threshold of $15$ points. Line inliers were identified and removed from the dataset. RANSAC then sampled three points from the remnant to algebraically fit a circle, utilizing a radial error threshold of $1.5$ and a minimum consensus requirement of $15$ points. Finally, the line was re-fit using Total Least Squares, and the circle was optimized using \texttt{scipy.minimize}.
+	
+	\begin{lstlisting}[language=Python, basicstyle=\ttfamily\scriptsize]
+		# Normal distance for line consensus
+		a, b = normal / np.linalg.norm(normal) 
+		distances_line = np.abs(X[:, 0]*a + X[:, 1]*b + d)
+		inliers_line = np.where(distances_line < 1.5)[0]
+		
+		# Radial error for circle consensus
+		distances_circ = np.sqrt((X_remnant[:, 0] - cx)**2 + (X_remnant[:, 1] - cy)**2)
+		errors_circ = np.abs(distances_circ - r_est)
+		inliers_circ = np.where(errors_circ < 1.5)[0]
+	\end{lstlisting}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.55\textwidth]{D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png}
+		\vspace{-0.2cm}
+		\caption{Sequential RANSAC fitting. Line inliers (yellow) were removed before estimating the circle inliers (magenta).}
+	\end{figure}
+	
+	\textbf{Discussion} \\
+	\textbf{What will happen if we fit the circle first?} \\
+	If RANSAC fits the circle prior to the line, it aims to maximize the consensus set across the entire point cloud. The circle model may over-fit by erroneously claiming noisy points that actually belong to the intersecting line. When this flawed consensus set is subtracted, the remnant will contain a fragmented, incomplete set of line points, causing the subsequent line estimation to skew heavily or fail entirely.
 \end{document}

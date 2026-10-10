@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.29)  10 OCT 2026 01:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.29)  10 OCT 2026 18:12
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **./230458P_a02.tex
 (230458P_a02.tex
@@ -760,31 +760,116 @@ File: tikzlibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 yplotmarks.code.tex
 File: pgflibraryplotmarks.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )))
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/minted\minted.sty
+Package: minted 2026/03/03 v3.8.0 Yet another Pygments shim for LaTeX
+
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/generic/catchfile\catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/fvextra\fvextra.sty
+Package: fvextra 2026/02/25 v1.14.0 fvextra - extensions and patches for fancyv
+rb
+
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2026/08/13 4.7 verbatim text (tvz,hv)
+\FV@CodeLineNo=\count347
+\FV@InFile=\read3
+\FV@TabBox=\box71
+\c@FancyVerbLine=\count348
+\FV@StepNumber=\count349
+\FV@OutFile=\write4
+)
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+Package: lineno 2026/03/08 line numbers on paragraphs v5.9
+\linenopenalty=\count350
+\output=\toks46
+\linenoprevgraf=\count351
+\linenumbersep=\dimen296
+\linenumberwidth=\dimen297
+\c@linenumber=\count352
+\c@pagewiselinenumber=\count353
+\c@LN@truepage=\count354
+\c@internallinenumber=\count355
+\c@internallinenumbers=\count356
+\quotelinenumbersep=\dimen298
+\bframerule=\dimen299
+\bframesep=\dimen300
+\bframebox=\box72
+\@LN@amsmath@ams@eqpen=\count357
+)
+\c@FancyVerbWriteLine=\count358
+\c@FancyVerbBufferLine=\count359
+\c@FV@TrueTabGroupLevel=\count360
+\c@FV@TrueTabCounter=\count361
+\FV@TabBox@Group=\box73
+\FV@bgcolorstructbox=\box74
+\FV@TmpLength=\skip55
+\c@FV@HighlightLinesStart=\count362
+\c@FV@HighlightLinesStop=\count363
+\FV@LoopCount=\count364
+\FV@NCharsBox=\box75
+\FV@BreakIndent=\dimen301
+\FV@BreakIndentNChars=\count365
+\FV@BreakSymbolSepLeft=\dimen302
+\FV@BreakSymbolSepLeftNChars=\count366
+\FV@BreakSymbolSepRight=\dimen303
+\FV@BreakSymbolSepRightNChars=\count367
+\FV@BreakSymbolIndentLeft=\dimen304
+\FV@BreakSymbolIndentLeftNChars=\count368
+\FV@BreakSymbolIndentRight=\dimen305
+\FV@BreakSymbolIndentRightNChars=\count369
+\c@FancyVerbLineBreakLast=\count370
+\FV@LineBox=\box76
+\FV@LineIndentBox=\box77
+\c@FV@BreakBufferDepth=\count371
+\FV@LineWidth=\dimen306
+)
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/latex2pydata\latex2pydata
+.sty
+Package: latex2pydata 2026/02/25 v0.7.0 latex2pydata - write data to file in Py
+thon literal format
+) (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/pgfopts\pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+\pgfopts@list@add@a@toks=\toks47
+\pgfopts@list@add@b@toks=\toks48
+) (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+)
+\c@minted@FancyVerbLineTemp=\count372
+\@float@every@listing=\toks49
+\c@listing=\count373
+)
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
 x.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count347
+\l__color_backend_stack_int=\count374
 ) (230458P_a02.aux)
 \openout1 = `230458P_a02.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 41.
+LaTeX Font Info:    ... okay on input line 41.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -794,15 +879,15 @@ LaTeX Font Info:    ... okay on input line 14.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(72.26999pt, 452.9679pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 700.50687pt, 72.26999pt)
+* h-part:(L,W,R)=(54.2025pt, 489.10287pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 736.64185pt, 54.2025pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=452.9679pt
-* \textheight=700.50687pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
+* \textwidth=489.10287pt
+* \textheight=736.64185pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -823,17 +908,17 @@ LaTeX Font Info:    ... okay on input line 14.
 
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count348
-\scratchdimen=\dimen296
-\scratchbox=\box71
-\nofMPsegments=\count349
-\nofMParguments=\count350
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count351
-\MPscratchDim=\dimen297
-\MPnumerator=\count352
-\makeMPintoPDFobject=\count353
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count375
+\scratchdimen=\dimen307
+\scratchbox=\box78
+\nofMPsegments=\count376
+\nofMParguments=\count377
+\everyMPshowfont=\toks50
+\MPscratchCnt=\count378
+\MPscratchDim=\dimen308
+\MPnumerator=\count379
+\makeMPintoPDFobject=\count380
+\everyMPtoPDFconversion=\toks51
 )
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
 e.sty
@@ -844,23 +929,72 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 14.
+Package hyperref Info: Link coloring OFF on input line 41.
  (230458P_a02.out) (230458P_a02.out)
-\@outlinefile=\write4
-\openout4 = `230458P_a02.out'.
+\@outlinefile=\write5
+\openout5 = `230458P_a02.out'.
 
-\c@lstlisting=\count354
+
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+Package: textcomp 2024/04/24 v2.1b Standard LaTeX package
+)
+\c@lstlisting=\count381
 
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 14.
+ on input line 41.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+
+
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2025/11/14 1.11b listings language file
+)
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png, id=6,
+ 505.13719pt x 503.63156pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png G
+raphic file (type png)
+<use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
+ults/Figure_1.png  used on input line 70.
+(pdftex.def)             Requested size: 195.63815pt x 195.0553pt.
 
 [1
 
-{C:/Users/LOQ/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(230458P_a02.aux)
+{C:/Users/LOQ/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.88 	
+       <D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png
+>]
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png, id=31
+, 1110.0672pt x 547.0839pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png G
+raphic file (type png)
+<use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
+ults/Figure_2.png  used on input line 103.
+(pdftex.def)             Requested size: 269.00807pt x 132.57167pt.
+ [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.111 \end{document}
+                     <D:/OneDrive/Documents/CV assignments/a02/a02_image_result
+s/Figure_2.png>] (230458P_a02.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -869,19 +1003,25 @@ Package rerunfilecheck Info: File `230458P_a02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 31829 strings out of 467871
- 739786 string characters out of 5419344
- 1276796 words of memory out of 5000000
- 60257 multiletter control sequences out of 15000+600000
- 629230 words of font info for 45 fonts, out of 8000000 for 9000
+ 36305 strings out of 467871
+ 860482 string characters out of 5419344
+ 1725210 words of memory out of 5000000
+ 64641 multiletter control sequences out of 15000+600000
+ 634221 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,5n,108p,736b,609s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,6n,108p,744b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
-s/cm/cmr12.pfb>
-Output written on 230458P_a02.pdf (1 page, 31203 bytes).
+s/cm/cmmi12.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmmi8.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/LOQ/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/LOQ/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on 230458P_a02.pdf (2 pages, 1059683 bytes).
 PDF statistics:
- 24 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 93 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

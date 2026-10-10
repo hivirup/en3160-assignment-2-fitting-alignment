@@ -53,8 +53,8 @@ local_max = maximum_filter(log_volume, size=neighborhood_size)
 extrema_mask = (log_volume == local_max)
 
 # Apply a threshold to discard weak responses (noise)
-# Tune the 0.1 multiplier based on how many false positives you get
-threshold = 0.1 * np.max(log_volume) 
+# Tune the 0.7 multiplier based on how many false positives you get
+threshold = 0.8 * np.max(log_volume) 
 threshold_mask = (log_volume > threshold)
 
 # Combine masks to get final blob locations
@@ -76,12 +76,15 @@ for y, x, s_idx in zip(y_coords, x_coords, scale_indices):
 # 5. Sort to find the largest circles
 detected_blobs.sort(key=lambda b: b['radius'], reverse=True)
 
-# Display the image
+# Display for your viewing using Matplotlib
 plt.figure(figsize=(10, 10))
 plt.imshow(cv.cvtColor(output_im, cv.COLOR_BGR2RGB))
 plt.title('Detected Sunflowers')
 plt.axis('off')
 plt.show()
+
+# Save for your LaTeX report using OpenCV (Zero padding)
+cv.imwrite('detected_sunflowers_result.jpeg', output_im)
 
 # Print the required report parameters
 print(f"Range of sigma values used: {sigma_min} to {sigmas[-1]:.2f}")
