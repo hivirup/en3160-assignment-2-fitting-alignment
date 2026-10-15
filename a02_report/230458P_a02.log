@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.29)  10 OCT 2026 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.7.29)  16 OCT 2026 02:07
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -946,12 +946,12 @@ ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into
 your preamble.
  on input line 41.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 49.
 
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 55.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 49.
 
 
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -960,13 +960,13 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 (C:\Users\LOQ\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
-<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png, id=6,
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png, id=7,
  505.13719pt x 503.63156pt>
 File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png G
 raphic file (type png)
 <use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png>
 Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
-ults/Figure_1.png  used on input line 70.
+ults/Figure_1.png  used on input line 72.
 (pdftex.def)             Requested size: 195.63815pt x 195.0553pt.
 
 [1
@@ -976,25 +976,170 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.88 	
+l.90 	
        <D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_1.png
 >]
-<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png, id=31
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png, id=33
 , 1110.0672pt x 547.0839pt>
 File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png G
 raphic file (type png)
 <use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.png>
 Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
-ults/Figure_2.png  used on input line 103.
+ults/Figure_2.png  used on input line 110.
 (pdftex.def)             Requested size: 269.00807pt x 132.57167pt.
  [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) ha
 s been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.111 \end{document}
-                     <D:/OneDrive/Documents/CV assignments/a02/a02_image_result
-s/Figure_2.png>] (230458P_a02.aux)
+l.123 	
+        <D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_2.pn
+g>]
+<D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/brick_wall.jpg, id
+=60, 315.3381pt x 315.3381pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/brick_wall.jp
+g Graphic file (type jpg)
+<use D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/brick_wall.jpg
+>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2i
+mages/brick_wall.jpg  used on input line 151.
+(pdftex.def)             Requested size: 156.5165pt x 156.51866pt.
+<D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/poster.jpg, id=61,
+ 571.94322pt x 808.95775pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/poster.jpg Gr
+aphic file (type jpg)
+<use D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/poster.jpg>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2i
+mages/poster.jpg  used on input line 155.
+(pdftex.def)             Requested size: 140.86475pt x 156.4809pt.
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.1.png, id=
+62, 435.12563pt x 456.20438pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.1.png
+ Graphic file (type png)
+<use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.1.png>
+
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
+ults/Figure_3.1.png  used on input line 159.
+(pdftex.def)             Requested size: 156.5165pt x 164.10118pt.
+<D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/laptop_screen.jpg,
+ id=63, 981.6675pt x 1284.8pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/laptop_screen
+.jpg Graphic file (type jpg)
+<use D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/laptop_screen.
+jpg>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2i
+mages/laptop_screen.jpg  used on input line 166.
+(pdftex.def)             Requested size: 156.5165pt x 204.84683pt.
+<D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/screensaver.png, i
+d=64, 1027.84pt x 1027.84pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/screensaver.p
+ng Graphic file (type png)
+<use D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/screensaver.pn
+g>
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2i
+mages/screensaver.png  used on input line 170.
+(pdftex.def)             Requested size: 156.5062pt x 204.8586pt.
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.2.png, id=
+65, 268.75406pt x 363.60844pt>
+File: D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.2.png
+ Graphic file (type png)
+<use D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.2.png>
+
+Package pdftex.def Info: D:/OneDrive/Documents/CV assignments/a02/a02_image_res
+ults/Figure_3.2.png  used on input line 174.
+(pdftex.def)             Requested size: 156.5165pt x 211.75856pt.
+
+Overfull \hbox (16.36037pt too wide) in paragraph at lines 182--185
+\OT1/cmr/m/n/12 tem-plate (\OT1/cmtt/m/n/12 AECC1.jpg\OT1/cmr/m/n/12 ) and test
+ PCB im-ages. Fea-ture match-ing was per-formed us-ing \OT1/cmtt/m/n/12 cv2.BFM
+atcher
+ []
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.185 	
+        <D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/brick_wall
+.jpg> <D:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/poster.jpg> 
+<D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.1.png> <D:
+/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/laptop_screen.jpg> <D
+:/OneDrive/Documents/CV assignments/a02/a02 codes/a2images/screensaver.png (PNG
+ copy)> <D:/OneDrive/Documents/CV assignments/a02/a02_image_results/Figure_3.2.
+png>]
+<../a02 codes/matches_AAAA1.jpg, id=90, 4273.9675pt x 2740.2375pt>
+File: ../a02 codes/matches_AAAA1.jpg Graphic file (type jpg)
+<use ../a02 codes/matches_AAAA1.jpg>
+Package pdftex.def Info: ../a02 codes/matches_AAAA1.jpg  used on input line 204
+.
+(pdftex.def)             Requested size: 83.60616pt x 85.33952pt.
+<../a02 codes/matches_ADAD1.jpg, id=91, 4487.76625pt x 2764.3275pt>
+File: ../a02 codes/matches_ADAD1.jpg Graphic file (type jpg)
+<use ../a02 codes/matches_ADAD1.jpg>
+Package pdftex.def Info: ../a02 codes/matches_ADAD1.jpg  used on input line 208
+.
+(pdftex.def)             Requested size: 92.92426pt x 85.3305pt.
+<../a02 codes/matches_AECC2.jpg, id=92, 4598.17876pt x 2740.2375pt>
+File: ../a02 codes/matches_AECC2.jpg Graphic file (type jpg)
+<use ../a02 codes/matches_AECC2.jpg>
+Package pdftex.def Info: ../a02 codes/matches_AECC2.jpg  used on input line 211
+.
+(pdftex.def)             Requested size: 92.8951pt x 85.33952pt.
+<../a02 codes/matches_AECC3.jpg, id=93, 4606.20876pt x 2741.24126pt>
+File: ../a02 codes/matches_AECC3.jpg Graphic file (type jpg)
+<use ../a02 codes/matches_AECC3.jpg>
+Package pdftex.def Info: ../a02 codes/matches_AECC3.jpg  used on input line 215
+.
+(pdftex.def)             Requested size: 92.91676pt x 85.32895pt.
+<../a02 codes/matches_AECC4.jpg, id=94, 4600.18625pt x 2741.24126pt>
+File: ../a02 codes/matches_AECC4.jpg Graphic file (type jpg)
+<use ../a02 codes/matches_AECC4.jpg>
+Package pdftex.def Info: ../a02 codes/matches_AECC4.jpg  used on input line 218
+.
+(pdftex.def)             Requested size: 92.86546pt x 85.32895pt.
+<../a02 codes/diff_AAAA1.jpg, id=95, 2310.6325pt x 2740.2375pt>
+File: ../a02 codes/diff_AAAA1.jpg Graphic file (type jpg)
+<use ../a02 codes/diff_AAAA1.jpg>
+Package pdftex.def Info: ../a02 codes/diff_AAAA1.jpg  used on input line 228.
+(pdftex.def)             Requested size: 92.93073pt x 110.17621pt.
+<../a02 codes/diff_ADAD1.jpg, id=96, 2310.6325pt x 2740.2375pt>
+File: ../a02 codes/diff_ADAD1.jpg Graphic file (type jpg)
+<use ../a02 codes/diff_ADAD1.jpg>
+Package pdftex.def Info: ../a02 codes/diff_ADAD1.jpg  used on input line 231.
+(pdftex.def)             Requested size: 92.93073pt x 110.17621pt.
+<../a02 codes/diff_AECC2.jpg, id=97, 2310.6325pt x 2740.2375pt>
+File: ../a02 codes/diff_AECC2.jpg Graphic file (type jpg)
+<use ../a02 codes/diff_AECC2.jpg>
+Package pdftex.def Info: ../a02 codes/diff_AECC2.jpg  used on input line 234.
+(pdftex.def)             Requested size: 92.93073pt x 110.17621pt.
+<../a02 codes/diff_AECC3.jpg, id=98, 2310.6325pt x 2740.2375pt>
+File: ../a02 codes/diff_AECC3.jpg Graphic file (type jpg)
+<use ../a02 codes/diff_AECC3.jpg>
+Package pdftex.def Info: ../a02 codes/diff_AECC3.jpg  used on input line 237.
+(pdftex.def)             Requested size: 92.93073pt x 110.17621pt.
+<../a02 codes/diff_AECC4.jpg, id=99, 2310.6325pt x 2740.2375pt>
+File: ../a02 codes/diff_AECC4.jpg Graphic file (type jpg)
+<use ../a02 codes/diff_AECC4.jpg>
+Package pdftex.def Info: ../a02 codes/diff_AECC4.jpg  used on input line 240.
+(pdftex.def)             Requested size: 92.93073pt x 110.17621pt.
+ [4
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.245 \end{document}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) ha
+s been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.245 \end{document}
+                     <../a02 codes/matches_AAAA1.jpg> <../a02 codes/matches_ADA
+D1.jpg> <../a02 codes/matches_AECC2.jpg> <../a02 codes/matches_AECC3.jpg> <../a
+02 codes/matches_AECC4.jpg> <../a02 codes/diff_AAAA1.jpg> <../a02 codes/diff_AD
+AD1.jpg> <../a02 codes/diff_AECC2.jpg> <../a02 codes/diff_AECC3.jpg> <../a02 co
+des/diff_AECC4.jpg>] (230458P_a02.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1003,13 +1148,13 @@ Package rerunfilecheck Info: File `230458P_a02.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 36305 strings out of 467871
- 860482 string characters out of 5419344
- 1725210 words of memory out of 5000000
- 64641 multiletter control sequences out of 15000+600000
+ 36521 strings out of 467871
+ 867715 string characters out of 5419344
+ 1771339 words of memory out of 5000000
+ 64814 multiletter control sequences out of 15000+600000
  634221 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,6n,108p,744b,1300s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,8n,108p,744b,1299s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
 bx12.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmmi12.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1019,9 +1164,9 @@ ype1/public/amsfonts/cm/cmr6.pfb><C:/Users/LOQ/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/LOQ/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/LOQ/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on 230458P_a02.pdf (2 pages, 1059683 bytes).
+Output written on 230458P_a02.pdf (4 pages, 31328018 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 170 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

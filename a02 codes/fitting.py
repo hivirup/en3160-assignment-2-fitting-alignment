@@ -53,7 +53,7 @@ for _ in range(1000):
     distances = np.abs(X[:, 0]*a + X[:, 1]*b + d)
     inliers = np.where(distances < line_threshold)[0]
     
-    if len(inliers) > len(best_line_inliers):
+    if len(inliers) >= 15 and len(inliers) > len(best_line_inliers):
         best_line_inliers = inliers
         best_line_sample = X[idx]
         best_line_model = (a, b, d)
@@ -98,7 +98,7 @@ for _ in range(1000):
     errors = np.abs(distances - r_est)
     inliers = np.where(errors < circ_threshold)[0]
     
-    if len(inliers) > len(best_circ_inliers):
+    if len(inliers) >= 15 and len(inliers) > len(best_circ_inliers):
         best_circ_inliers = inliers
         best_circ_sample = pts
         best_circ_model = model
@@ -147,3 +147,5 @@ plt.legend()
 plt.axis('equal')
 plt.savefig('ransac_results.jpeg', bbox_inches='tight', pad_inches=0.1)
 plt.show()
+
+print(f"Line Inliers: {len(best_line_inliers)}, Circle Inliers: {len(best_circ_inliers)}")
